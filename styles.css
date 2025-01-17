@@ -1,0 +1,16 @@
+/* 
+  Custom styles to supplement Tailwind (if desired).
+  Keep it minimal for a clean, simple design.
+*/
+
+/* Example: Increase the default font size a bit */
+body {
+  font-size: 1.1rem;
+}
+
+/* Example: Adjust spacing for smaller screens if needed */
+@media (max-width: 1024px) {
+  aside {
+    margin-top: 1.5rem;
+  }
+}
